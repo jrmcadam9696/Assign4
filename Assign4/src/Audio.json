@@ -1,76 +1,92 @@
-{ "audio": [
+{
+  "audio": [
     {
+      "type": "song",
       "title": "Billie Jean",
       "artist": "Michael Jackson",
       "year": 1983
     },
     {
+      "type": "song",
       "title": "Smells Like Teen Spirit",
       "artist": "Nirvana",
       "year": 1991
     },
     {
+      "type": "song",
+      "title": "Never Gonna Give You Up",
       "artist": "Rick Astley",
-      "year": 1987,
-      "title": "Never Gonna Give You Up"
+      "year": 1987
     },
     {
+      "type": "podcast",
       "episode": 360,
       "episodeTitle": "Switched at Birth"
     },
     {
+      "type": "podcast",
       "season": 7,
       "episode": 2,
       "episodeTitle": "How to Fail: Malcolm Gladwell"
     },
     {
-      "episode": 5,
+      "type": "podcast",
       "season": 1,
+      "episode": 5,
       "episodeTitle": "Route Talk"
     },
     {
+      "type": "song",
+      "title": "Wellerman",
       "artist": "Nathan Evans",
       "year": 2021,
-      "title": "Wellerman",
       "genre": "Folk"
     },
     {
+      "type": "song",
+      "title": "Not Like Us",
       "artist": "Kendrick Lamar",
-      "year": 2024,
-      "title": "Not Like Us"
+      "year": 2024
     },
     {
+      "type": "song",
+      "title": "Podcasts Are Overrated",
       "artist": "John D. Smith",
-      "year": 2003,
-      "title": "Podcasts Are Overrated"
+      "year": 2003
     },
     {
+      "type": "podcast",
       "podcast": "The Moth",
       "episodeTitle": "The Moth Presents John Turturro"
     },
     {
+      "type": "podcast",
       "episode": 7,
       "episodeTitle": "Vocational Wheel"
     },
     {
+      "type": "song",
+      "title": "Friday",
       "artist": "Rebecca Black",
-      "year": 2011,
-      "title": "Friday"
+      "year": 2011
     },
     {
+      "type": "podcast",
       "season": 1,
       "episode": 2,
       "episodeTitle": "John D. Smith is a Subpar Musician",
       "year": 2004
     },
     {
+      "type": "podcast",
       "episode": 1368,
       "episodeTitle": "The Joe Rogan Experience- #1368: Edward Snowden"
     },
     {
+      "type": "song",
+      "title": "Two Days in February",
       "artist": "Goo Goo Dolls",
-      "year": 1990,
-      "title": "Two Days in February"
+      "year": 1990
     }
   ]
 }

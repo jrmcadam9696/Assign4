@@ -27,9 +27,9 @@ function Playlist({ setTracks, setCurrentTrack, currentTrack }) {
   }, []);
 
   // Find the current track's full details
-  const currentSong = audioData.find(
-    (song) => song.title === currentTrack
-  );
+  const currentSong = audioData.audio.find(
+    (item) => item.type === "song" && item.title === currentTrack
+  );  
 
   return (
     <div className="playlist">
