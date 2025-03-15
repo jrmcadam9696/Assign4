@@ -5,7 +5,13 @@ function Playlist({ setTracks, setCurrentTrack, currentTrack }) {
   const [audioData, setAudioData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/audio") 
+    fetch("https://api.jsonbin.io/v3/b/67d5f1438a456b7966768408/latest",{
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json', 
+        'X-Access-Key': '$2a$10$dKLZduiwgfxR6Yoo3a.CcuLLzggIzdu/y3UBOYQOU1hgvCPjjFYtC'
+      }
+    }) 
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
