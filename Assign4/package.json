@@ -1,5 +1,6 @@
-{
-  "name": "package.json",
+{ 
+  "homepage": "https://jrmcadam9696.github.io/Assign4",
+  "name": "assign4",
   "private": true,
   "version": "0.0.0",
   "type": "module",
