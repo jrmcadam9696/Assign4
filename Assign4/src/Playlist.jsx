@@ -5,7 +5,7 @@ function Playlist({ setTracks, setCurrentTrack, currentTrack }) {
   const [audioData, setAudioData] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.jsonbin.io/v3/b/67d5f1438a456b7966768408/latest",{
+    fetch("http://localhost:3001/audio",{
       method: "GET",
       headers: {
         'Content-Type': 'application/json', 
@@ -27,9 +27,9 @@ function Playlist({ setTracks, setCurrentTrack, currentTrack }) {
   }, []);
 
   // Find the current track's full details
-  const currentSong = audioData.audio.find(
-    (item) => item.type === "song" && item.title === currentTrack
-  );  
+  const currentSong = audioData.find(
+    (song) => song.title === currentTrack
+  );
 
   return (
     <div className="playlist">
